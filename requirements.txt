@@ -1,0 +1,9 @@
+streamlit==1.38.0
+streamlit_option_menu
+google-generativeai
+gTTs
+SpeechRecognition
+sounddevice               
+setuptools
+pydub==0.25.1
+audio_recorder_streamlit
