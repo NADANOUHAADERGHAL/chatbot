@@ -54,6 +54,10 @@ def generate_response(input_text):
             response_text = "KEYBOX est un centre d’apprentissage technologique spécialisé en robotique. Pour but de la vulgarisation du domaine de la robotique et le rendre plus accessible pour tt les amateurs et les amoureux de la création et d’invention."
         elif "ماهو كيبوكس ?" in input_text.lower():
             response_text = "كيبوكس هو مركز تعليمي تكنولوجي متخصص في مجال الروبوتات. يهدف إلى تبسيط مجال الروبوتات وجعله أكثر سهولة لجميع الهواة وعشاق الابتكار والاختراع."
+        elif "what is the capital of plastine" in input_text.lower():
+            response_text = "the capital of plastine is el qods"
+        elif "c'est quoi keybox" in input_text.lower():
+            response_text = "KEYBOX est un centre d’apprentissage technologique spécialisé en robotique. Pour but de la vulgarisation du domaine de la robotique et le rendre plus accessible pour tt les amateurs et les amoureux de la création et d’invention"    
         else:
             response = convo.send_message(input_text)
             response_text = response.text
