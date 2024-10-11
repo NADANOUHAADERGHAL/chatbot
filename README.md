@@ -1,4 +1,7 @@
-#Chatbot Web Application using Google Gemini API and Streamlit
+This chatbot is developed using the Google Gemini API, and the web application is built with the Streamlit framework. You can find all the necessary libraries to download for viewing the app development in the requirements file.
+
+
+
 
 This repository contains a chatbot web application developed using the Google Gemini API and built with the Streamlit framework. The project allows users to interact with the chatbot through a web interface.
 How to Use:
